@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.center{
+  text-align: center;
+}
+.my_0{
+  margin-top: p;
+  margin-bottom: 0;
+}
+.py_1{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.title{
+  /* text-align: center; */
+  text-transform: uppercase;
+  background: black;
+  color: aliceblue;
+  font-weight: 100;
+}
