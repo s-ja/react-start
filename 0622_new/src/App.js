@@ -7,7 +7,6 @@ import { useState } from 'react';
 import Header from './component/Header';
 import Greeting from './component/Greeting';
 
-
 import Calc from './component/Calc';
 
 function App() {
@@ -28,6 +27,7 @@ function App() {
   //   console.log(e); // e: event의 축약, event 객체를 뜻함.
   //   setName(e.target.value);
   // }
+
   return (
     <div className="App">
       <Header title={title} hello={hello}/>
@@ -39,6 +39,7 @@ function App() {
       </div>
 
       <Calc />
+      <p className='copy'> &copy;ASJ</p>
     </div>
   );
 }
